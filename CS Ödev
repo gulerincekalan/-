@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main(){
+int birinciSayi,ikinciSayi,toplam = 0;
+
+printf("\nToplama İşlemi\n");
+
+printf("İlk sayiyi giriniz    :\n");
+scanf("%d",&birinciSayi);
+
+printf("İkinci sayiyi giriniz :\n");
+scanf("%d",&ikinciSayi);
+
+toplam=birinciSayi+ikinciSayi;
+
+printf("\nToplam :%d",toplam);
+
+return 0;
+}
